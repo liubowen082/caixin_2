@@ -1,0 +1,97 @@
+.actCan {
+  display: inline-block;
+  *display: inline;
+  position: relative;
+  zoom: 1;
+}
+.actCan img {
+  border: 0;
+  display: block;
+}
+.actCan .actCanBottom {
+  position: absolute;
+  bottom: 0;
+  color: #FFF;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  background-image: url('../../images/icbg.png');
+  overflow: hidden;
+}
+.actCan .cc {
+  background-image: url('../../images/icbg_4.png');
+  color: #000;
+}
+.actCan .actLeft,
+.actCan .actLeftStar {
+  margin: 20px 0 20px 30px;
+  overflow: auto;
+}
+.actCan .actLeft ul li,
+.actCan .actLeftStar ul li {
+  float: left;
+  width: 49%;
+}
+.actCan .actLeft .catColor,
+.actCan .actLeftStar .catColor {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  -moz-border-radius: 12px;
+  -khtml-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -ms-border-radius: 12px;
+  border-radius: 12px;
+}
+.actCan .actLeftStar ul li {
+  float: none;
+  width: 100%;
+  color: #000;
+}
+.actCan .catRight {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+  background-image: url('../../images/icbg.png');
+}
+.actCan .catRight a {
+  color: #FFF;
+  width: 114px;
+  height: 114px;
+  display: block;
+  text-align: center;
+  padding-top: 14px;
+}
+.actCan .catRight a .gotoSite {
+  margin-top: 10px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #FFF;
+  -moz-border-radius: 50px;
+  -khtml-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 50px;
+}
+.glyphicon {
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  font-size: 24px;
+  width: 16px;
+  height: 14px;
+}
+.glyphicon-star {
+  background: url('../../images/star.png');
+}
+.glyphicon-star2 {
+  background: url('../../images/star2.png');
+}

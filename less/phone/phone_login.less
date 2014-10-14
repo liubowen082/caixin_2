@@ -1,0 +1,204 @@
+
+.bottom{ width:auto;}
+*{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+em{ }
+
+.cli(@bcolor, @w, @h, @r) {
+	background-color:@bcolor;
+    width: @w;   /* div的宽和高为600px即正方形的边长为600px */
+    height: @h;
+    text-align: center;
+	display:inline-block;
+	
+    -moz-border-radius: @r;   /* 圆的半径为边长的一半，即300px */
+    -webkit-border-radius: @r;
+    border-radius: @r;
+
+}
+.bg(@bg,@x,@h){
+	background-image:url(@bg);
+	background-repeat:no-repeat;
+	display:inline-block;
+	background-position:@x @h;
+	background-size:contain;
+	width:1.3em;
+	height:1.1em;
+	position:absolute;
+	left:0.6em;
+	top:1.2em;
+	text-indent:-3000;
+	vertical-align:middle;
+}
+
+
+
+.cx_login{
+	.cli(#FFF,90%,auto,10px);
+	height:30em;
+	position:relative;
+	top:20px;
+	text-align:left;
+	
+	left:50%;
+	margin-left:-45%;
+	
+	.cx_l_ic_1{ 
+		.bg("../../images/login_ic_1.png", 0 ,0);
+	}
+	.cx_l_ic_2{ 
+		.bg("../../images/login_ic_2.png",0,0);
+	}
+	.cx_l_ic_3{ 
+		.bg("../../images/login_ic_3.png",0,0 );
+	}
+	.cx_l_ic_4,.cx_l_ic_5{ 
+		.bg("../../images/login_ic_4.png",0 ,0);
+		position:static;
+		width:1.4em;
+		height:1.4em;
+	}
+	.cx_l_ic_5{ 
+		.bg("../../images/login_ic_5.png" ,0, 0);
+		position:static;
+		width:1.4em;
+		height:1.4em;
+	}
+	
+	.cx_l_ic_6,.cx_l_ic_7{ 
+		.bg("../../images/login_ic_6.png",0,0 );
+		margin-right:10px;
+		position:static;
+		width:1.2em;
+		height:1.2em;
+	}
+	
+	.cx_l_ic_7{ 
+		.bg("../../images/login_ic_7.png",0,0 );
+		margin-right:10px;
+		position:static;
+		width:1.2em;
+		height:1.2em;
+	}
+	
+	
+	.mt72{margin-top:72px;}
+	.pl6{ padding-left:0.6em;}
+	
+	
+	.cx_login_title{
+		paddin:20px 0 20px 18px;
+		background:#aaaaaa;
+		padding-left:18px;
+		h2{ color:#FFF; font-size:1.8em; font-weight:700;line-height:1.8em;}
+		
+	}
+	.cx_login_close{ 
+			position:absolute;
+			right:15px;
+			top:0.3em;
+			display:block;
+			.cli(#FFF,1em,1em,1.4em);
+			font-size:1.8em;
+			font-weight:300;
+			line-height:1em;
+			overflow:hidden;
+		
+		}
+	.cx_login_box{
+		margin:0.5em 1em;
+	}
+	.cx_login_error{
+		color:#cc0311;
+		height:1.4em;
+		font-size:1.2em;
+		.cx_login_error_ic1{
+			.cli(#cc0311,1em,1em,1em);
+			font-size:1.2em; font-weight:700;
+			color:#FFF;
+			line-height:1.2em;
+			text-alignn:center;
+			margin-right:10px;
+		
+		}
+		.cx_login_error_getPwd{
+			color:#898989;
+			padding-left:40px;
+		}
+	
+	}
+	
+	.cx_login_in{
+		.cli(#eaeaea,auto,auto,10px);
+		display:block;
+		position:relative;
+		padding:0.5em 0 0.5em 2.46em;
+		margin-top:1em;
+		
+	}
+	
+	.cx_login_input{ 
+		border:0;
+		.cli(#eaeaea,90%,auto,10px);
+		text-align:left;
+		display:block;
+		font-size:1.2em;
+		margin-top:3px;
+		margin-bottom:3px;
+	}
+	.cx_login_submit{
+		.cli(#bad576,100%,auto,10px);
+		-webkit-box-shadow: 0;  
+		-moz-box-shadow: 0;  
+		box-shadow: 0; 
+		border:0;
+		color : #FFF;
+		font-size:1.4em;
+		font-weight:600;
+		cursor:pointer;
+		padding:0.5em 0 0.5em 0;
+		display:block;
+		width:100%;
+	}
+	
+	.cx_login_others{
+		margin:1em -1% 0;
+		
+		a{
+			.cli(#FFF,47.9%,auto,10px);
+			border:1px solid #eeeeee;
+			display:inline-block;
+			margin:auto 0.9%;
+			font-size:1.2em;
+			font-weight:600;
+			height:1.8em;
+			line-height:2em;
+			overflow:hidden;
+			color:#a9a9a9;
+		}
+	
+	}
+	
+	
+	.cx_login_goReg{ 
+		color:#888888;
+		position:absolute;
+		right:1em;
+		bottom:1em;
+	
+	}
+	.cx_beg_box{
+		.cx_login_check{ 
+			padding-left:0.6px;
+			margin-right:40%;
+			.cx_login_input{ padding-left:0.6em;}
+		}
+		.cx_login_goReg{ 
+			left:1em;
+			right:auto;
+		
+		}
+		.cx_login_submit{ margin-top:20px;}
+		
+	}
+	.cx_login_in_r{width:35%;float:right;}
+}

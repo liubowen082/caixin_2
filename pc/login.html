@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>登录</title>
+
+<link href="http://file.caixin.com/file/channel/css/common_v5.css" type="text/css" rel="stylesheet" >
+<link rel="stylesheet" type="text/css" href="http://file.caixin.com/file/channel/wsbn/css/wsbn.css"/>
+<link rel="stylesheet" type="text/css" href="../css/pc/login.css"/>
+
+</head>
+
+<body>
+    <div class="cx_bg" id="cx_login_bg"></div>
+	<div class="cx_login">
+    	<div class="cx_login_title">
+        	<h2 id="cx_login_title">
+            	登录
+            </h2>
+        </div>
+        <a href="javascript:;" class="cx_login_close">×</a>
+    	<!--登录-->
+        <div class="cx_login_box" id="cx_login_box"  style="display:none;">
+        	<div class="cx_login_error">
+            	<div style="display:none;" id="cx_login_error">
+                    <span class="cx_login_error_ic1" >!</span><span id="cx_login_error_msg">你真的错了</span>
+                    <a class="cx_login_error_getPwd" href="#">忘记密码？</a>
+                </div>
+            </div>
+        	<div class="cx_login_com">
+            	<div class="cx_login_in">
+                	<span class="cx_l_ic_1"></span>
+                	<div>
+                		<input type="text" class="cx_login_input" placeholder="邮箱" id="loginEmail">
+                    </div>
+                </div>
+                
+                <div class="cx_login_in">
+                	<span class="cx_l_ic_2"></span>
+                	<div>
+                		<input type="password" class="cx_login_input" placeholder="密码"  id="loginPwd">
+                    </div>
+                </div>
+                <div class="cx_login_next mt72">
+                		<input type="checkbox"  id="loginPwd"> 下次自动登录
+                </div>
+                <input type="submit" value="登录" class="cx_login_submit " id="loginSubmit">
+            </div>
+            <div class="cx_login_others">
+            	<a href="#" target="_blank">
+                	<span class="cx_l_ic_4"></span>
+                    新浪微博登录
+                </a><a href="#" target="_blank">
+                	<span class="cx_l_ic_5"></span>
+                    新浪微博登录
+                </a>
+            </div>
+            <div class="cx_login_goReg">
+            	<a href="javascript:;" id="cx_login_showReg">注册账号 <span class="cx_l_ic_6"></span> </a>
+            </div>
+        </div>
+        
+        <!--注册-->
+    	<div class="cx_login_box cx_beg_box" id="cx_reg_box">
+        	<div class="cx_login_error">
+            	<div id="cx_reg_error" style="display:none;">
+                    <span class="cx_login_error"><span class="cx_login_error_ic1">!</span><span id="cx_reg_error_msg"></span></span>
+                </div>
+            </div>
+        	<div class="cx_login_com">
+            	<div class="cx_login_in">
+                	<span class="cx_l_ic_2"></span>
+                	<div>
+                		<input type="text" class="cx_login_input" placeholder="用户名3-16个字符" id="regUserName" >
+                    </div>
+                </div>
+                <div class="cx_login_in">
+                	<span class="cx_l_ic_1"></span>
+                	<div>
+                		<input type="text" class="cx_login_input" placeholder="邮箱"  id="regEmail"  >
+                    </div>
+                </div>
+                
+                <div class="cx_login_in">
+                	<span class="cx_l_ic_3"></span>
+                	<div>
+                		<input type="password" class="cx_login_input" placeholder="密码6-16位" id="regPwd">
+                    </div>
+                </div>
+                <div class="cx_login_in cx_login_check cf">
+                	<div style="width:35%;float:right; height:42px;">
+                    	<img src="../images/temp_7.png" style="width:100%; height:100%;" >
+                    </div>
+                	<div style="width:55%;float:left">
+                		<input type="text" class="cx_login_input" placeholder="验证码"  id="regCheckNum">
+                    </div>
+                    
+                    
+                </div>
+                <input type="submit" value="登录" class="cx_login_submit mt72" id="regSumbit">
+            </div>
+            <div class="cx_login_goReg">
+            	<a href="javascript:;"  id="cx_login_showLogin"><span class="cx_l_ic_7"></span>登录</a>
+            </div>
+        </div>
+    
+    
+    </div>
+
+
+
+</body>
+<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="login.js"></script>
+</html>

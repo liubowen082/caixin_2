@@ -1,0 +1,162 @@
+@import (less) "../common/header";
+@import (less) "../common/hot";
+@import (less) "../common/vote";
+@import (less) "../common/share";
+.bannerCon{ 
+	padding-top:6px;
+	overflow:hidden;
+	position:relative;
+	width:990px;
+	height:350px;
+	@mg:30px;
+
+
+	.banner{ 
+		margin-left:auto;
+		margin-right:auto;
+		height:350px;
+		width:990px;
+		overflow:hidden;
+		position : absolute;
+		
+	}
+	.indexBanner{ 
+		width:780px;
+		position:relative;
+		display:inline-block;
+		margin-right:40px;
+		&.out{opacity:0.2; }
+		img{ width:780px; height:300px;}
+		
+	}
+	.bannerMain{
+		position : absolute;
+		
+		left:0px;
+		top:0;
+		margin:60px 20px 0;
+		font-size:12px;
+		
+		.bannerLeft,.bannerRight{
+			 width:60%;
+			 float:left;
+			 h2{
+				font-size : 20px;
+				margin-bottom:30px;
+			 }
+			 
+			 p{ margin:10px @mg; color:#FFF;font-size : 16px;line-height : 160%;}
+		}
+		.bannerLeft h2{ margin-left:30px; font-size:40px; color:#FFF}
+		.bannerRight{
+		 	margin-top:24px;
+			width:39%;
+			float:right;
+			.bannerlist{
+				.less-vote;
+				.l_2{ height:20px;}
+				}
+		}
+
+	}
+
+}
+.main{
+	width:990px;
+	margin-top:22px;
+	overflow : hidden;
+	ul{
+	 height:auto;
+	 margin:0 -22px 15px -22px;
+	 zoom:1;
+	 &:after {
+			.after;
+	  }
+	 }
+	ul li{
+		.fl;
+		width:300px;
+		height:390px;
+		margin:14px 22px;
+		position:relative;
+		overflow:hidden;
+		img { width:300px;height:300px;}
+		.mainConLiu{
+			background : url('../../images/icbg.png');
+			font-size:12px;
+			position:absolute;
+			left:0;
+			bottom:90px;
+			width:100%;
+			z-index:10;
+			h2{ font-size:1rem;  *font-size:14px;
+				padding:10px 16px;
+				color:#FFF;
+				}
+		}
+		
+		span.txt {
+			position:relative;
+			display:block;
+			font-size:12px;
+			color:#a9a9a9;
+			margin-top:10px;
+			.title{ color:#000; margin-right:20px;}
+		
+		}
+		
+		.bg_1{
+			height:20px;
+			position:absolute;
+			right:0px;
+			top:0px;
+			padding:0px 0px;
+		}
+		.ic_2{
+			.icon;
+			width:23px;
+			height:11px;
+			display:inline-block;
+			background : url('../../images/ic_6.png') no-repeat;
+			padding:0 2px;
+			position:relative;
+			top:-1px;
+		
+		}
+	}
+	
+}
+
+.hot .a_8{
+	background:url(../../images/ic_2.png) no-repeat;
+}
+
+.hot ul li div{
+	background:url(../../images/icbg_5.png);
+}
+.addMore a:hover{background-color:#9ac72a}
+
+
+.shareLiu{ 
+		text-align:right;
+		margin-bottom:30px;
+		position:fixed;
+		top:180px;
+		left:50%;
+		margin-left:500px;
+		z-index:10;
+		width:29px;
+		a{
+			.less_share;
+			margin-left:10px;
+			width:29px;
+			height:29px;
+			background:url("../../images/icon_share.png") no-repeat;
+			margin-bottom:10px;
+			&.share_sina { background-position:0 0;}
+			&.share_weixin{ background-position:0 -41px;}
+			&.share_qq{ background-position:0 -81px;}
+			}
+		
+		
+	}

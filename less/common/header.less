@@ -1,0 +1,98 @@
+@import (less) "../common/common";
+.header{ 
+	
+	height:auto;
+	.logo{float:left;}
+	.banner{float:right;}
+	.logoBox{
+		width : @pageWidth;
+		margin-left:auto;
+		margin-right:auto;
+		padding:5px 0;
+		&:after {
+			.after;
+	  }
+	}
+	.headerNav{ background:#223f5f;}
+	.nav {
+		font-size : 0.8rem;
+		width : @pageWidth;
+		a{ color:#FFF;}
+		a span{ color:#e45914;}
+		margin-left:auto;
+		margin-right:auto;
+		height:50px;
+		line-height:50px;
+		position:relative;
+		.navList li{ float:left; margin-right:12px;}
+		
+		.navRight{
+			position : absolute;
+			right:0px;
+			top:0;
+			
+			_width:420px;
+			a {margin-left:20px;};
+			div{display:inline; _width:190px;}
+			@bg : #c1cad2;
+			input{ border:1px solid #000;
+				border-right:0;
+				-moz-border-radius: 11px;
+				-khtml-border-radius: 11px;
+				-webkit-border-radius: 11px;
+				-ms-border-top-right-radius : 0;
+				border-radius: 11px;
+				
+				-moz-border-bottom-right-radius : 0;
+				-khtml-border-bottom-right-radius : 0;
+				-webkit-border-bottom-right-radius : 0;
+				-ms-border-bottom-right-radius : 0;
+				border-bottom-right-radius : 0;
+				
+				-moz-border-top-right-radius : 0;
+				-khtml-border-top-right-radius : 0;
+				-webkit-border-top-right-radius : 0;
+				-ms-border-top-right-radius : 0;
+				border-top-right-radius : 0;
+				
+				position:relative;
+				top : -2px;
+				margin-left:20px;
+				background-color:@bg;
+				padding-left:5px;
+				height:19px;
+				
+			}
+			.searchBtn{
+				border:1px solid #000;
+				border-left:0;
+				-moz-border-radius: 11px;
+				-khtml-border-radius: 11px;
+				-webkit-border-radius: 11px;
+				-ms-border-top-right-radius : 0;
+				border-radius: 11px;
+				
+				-moz-border-bottom-left-radius : 0;
+				-khtml-border-bottom-left-radius : 0;
+				-webkit-border-bottom-left-radius : 0;
+				-ms-border-bottom-left-radius : 0;
+				border-bottom-left-radius : 0;
+				
+				-moz-border-top-left-radius : 0;
+				-khtml-border-top-left-radius : 0;
+				-webkit-border-top-left-radius : 0;
+				-ms-border-top-left-radius : 0;
+				border-top-left-radius : 0;
+				background:@bg url("../../images/icon.png") 0 -173px;
+				width:25px;
+				height:21px;
+				margin-left:0;
+			}
+			
+			.sendPP { color:#FFF; background-color:#e65c25;height:50px;line-height:50px;
+				display:inline-block; padding:0px 12px;
+			
+			}
+		}
+	} 
+}

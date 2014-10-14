@@ -1,0 +1,37 @@
+/*bottom*/
+.copyRight {
+  background: #555555;
+  color: #fff;
+  font-size: 14px;
+  font-family: "寰蒋闆呴粦", Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+}
+.bottom {
+  width: 990px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.copyRight dl {
+  padding: 0 80px;
+  line-height: 200%;
+}
+.copyRight dl,
+.copyRight dd {
+  overflow: hidden;
+  zoom: 1;
+}
+.copyRight dt {
+  float: left;
+}
+.copyRight dd a {
+  color: #fff;
+  display: inline-block;
+  margin-right: 20px;
+}
+.copyRight dd a:hover {
+  color: #cf0;
+}
+.bottom p {
+  text-align: center;
+  padding-top: 30px;
+}

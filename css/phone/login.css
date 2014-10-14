@@ -1,0 +1,297 @@
+html {
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 200%;
+  background: #000;
+  font-size: inherit;
+}
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.cx_login {
+  background-color: #ffffff;
+  width: 90%;
+  /* div�Ŀ��͸�Ϊ600px�������εı߳�Ϊ600px */
+  height: auto;
+  text-align: center;
+  display: inline-block;
+  -moz-border-radius: 10px;
+  /* Բ�İ뾶Ϊ�߳���һ�룬��300px */
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  height: 24.65em;
+  position: fixed;
+  top: 20px;
+  text-align: left;
+  left: 50%;
+  margin-left: -45%;
+}
+.cx_login .cx_l_ic_1 {
+  background-image: url("../../images/login_bg.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: -3.7em 0;
+  width: 1.26em;
+  height: 1.2em;
+  position: absolute;
+  left: 0.6em;
+  top: 0.6em;
+  text-indent: -3000;
+  vertical-align: middle;
+}
+.cx_login .cx_l_ic_2 {
+  background-image: url("../../images/login_bg.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: -3.7em -2.05em;
+  width: 1.26em;
+  height: 1.2em;
+  position: absolute;
+  left: 0.6em;
+  top: 0.6em;
+  text-indent: -3000;
+  vertical-align: middle;
+  top: 0.45em;
+}
+.cx_login .cx_l_ic_3 {
+  background-image: url("../../images/login_bg.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: -3.7em -4.2em;
+  width: 1.26em;
+  height: 1.2em;
+  position: absolute;
+  left: 0.6em;
+  top: 0.6em;
+  text-indent: -3000;
+  vertical-align: middle;
+}
+.cx_login .cx_l_ic_4 {
+  background-image: url("../../images/login_bg.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: 0 -2.8rem;
+  width: 1.26em;
+  height: 1.2em;
+  position: absolute;
+  left: 0.6em;
+  top: 0.6em;
+  text-indent: -3000;
+  vertical-align: middle;
+  position: inherit;
+  width: 1.7rem;
+  height: 1.35rem;
+}
+.cx_login .cx_l_ic_5 {
+  background-image: url("../../images/login_bg.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: 0 -5.6rem;
+  width: 1.26em;
+  height: 1.2em;
+  position: absolute;
+  left: 0.6em;
+  top: 0.6em;
+  text-indent: -3000;
+  vertical-align: middle;
+  position: inherit;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+.cx_login .cx_l_ic_6 {
+  background-image: url("../../images/login_bg.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: 0 -8em;
+  width: 1.26em;
+  height: 1.2em;
+  position: absolute;
+  left: 0.6em;
+  top: 0.6em;
+  text-indent: -3000;
+  vertical-align: middle;
+  position: inherit;
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-right: 10px;
+}
+.cx_login .cx_l_ic_7 {
+  background-image: url("../../images/login_bg.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: right -8em;
+  width: 1.26em;
+  height: 1.2em;
+  position: absolute;
+  left: 0.6em;
+  top: 0.6em;
+  text-indent: -3000;
+  vertical-align: middle;
+  position: inherit;
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-right: 10px;
+}
+.cx_login .mt72 {
+  margin-top: 72px;
+}
+.cx_login .pl6 {
+  padding-left: 0.6em;
+}
+.cx_login .cx_login_title {
+  height: 70px;
+  line-height: 70px;
+  background: #aaaaaa;
+  padding-left: 18px;
+}
+.cx_login .cx_login_title h2 {
+  color: #FFF;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.cx_login .cx_login_close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  display: block;
+  background-color: #ffffff;
+  width: 40px;
+  /* div�Ŀ��͸�Ϊ600px�������εı߳�Ϊ600px */
+  height: 40px;
+  text-align: center;
+  display: inline-block;
+  -moz-border-radius: 40px;
+  /* Բ�İ뾶Ϊ�߳���һ�룬��300px */
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 40px;
+}
+.cx_login .cx_login_box {
+  margin: 18px;
+}
+.cx_login .cx_login_error {
+  color: #cc0311;
+  height: 1.2rem;
+  font-size: 1.2rem;
+}
+.cx_login .cx_login_error .cx_login_error_ic1 {
+  background-color: #cc0311;
+  width: 30px;
+  /* div�Ŀ��͸�Ϊ600px�������εı߳�Ϊ600px */
+  height: 30px;
+  text-align: center;
+  display: inline-block;
+  -moz-border-radius: 40px;
+  /* Բ�İ뾶Ϊ�߳���һ�룬��300px */
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #FFF;
+  line-height: 30px;
+  text-alignn: center;
+  margin-right: 10px;
+}
+.cx_login .cx_login_error .cx_login_error_getPwd {
+  color: #898989;
+  padding-left: 40px;
+}
+.cx_login .cx_login_in {
+  padding-left: 2.46em;
+  background-color: #eaeaea;
+  width: auto;
+  /* div�Ŀ��͸�Ϊ600px�������εı߳�Ϊ600px */
+  height: 42px;
+  text-align: center;
+  display: inline-block;
+  -moz-border-radius: 10px;
+  /* Բ�İ뾶Ϊ�߳���һ�룬��300px */
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  display: block;
+  position: relative;
+}
+.cx_login .cx_login_input {
+  border: 0;
+  background-color: #eaeaea;
+  width: 100%;
+  /* div�Ŀ��͸�Ϊ600px�������εı߳�Ϊ600px */
+  height: 40px;
+  text-align: center;
+  display: inline-block;
+  -moz-border-radius: 10px;
+  /* Բ�İ뾶Ϊ�߳���һ�룬��300px */
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  text-align: left;
+  display: block;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+.cx_login .cx_login_submit {
+  background-color: #bad576;
+  width: 100%;
+  /* div�Ŀ��͸�Ϊ600px�������εı߳�Ϊ600px */
+  height: 40px;
+  text-align: center;
+  display: inline-block;
+  -moz-border-radius: 10px;
+  /* Բ�İ뾶Ϊ�߳���һ�룬��300px */
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0;
+  -moz-box-shadow: 0;
+  box-shadow: 0;
+  border: 0;
+  color: #FFF;
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.cx_login .cx_login_others {
+  margin: 20px -1% 0;
+}
+.cx_login .cx_login_others a {
+  background-color: #ffffff;
+  width: 47.9%;
+  /* div�Ŀ��͸�Ϊ600px�������εı߳�Ϊ600px */
+  height: auto;
+  text-align: center;
+  -moz-border-radius: 10px;
+  /* Բ�İ뾶Ϊ�߳���һ�룬��300px */
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #eeeeee;
+  display: inline-block;
+  margin: auto 0.9%;
+  font-size: 1.2em;
+  font-weight: 600;
+  height: 1.8em;
+  line-height: 2em;
+  overflow: hidden;
+  color: #a9a9a9;
+}
+.cx_login .cx_login_goReg {
+  text-align: right;
+  color: #888888;
+  margin-top: 20px;
+}
+.cx_login .cx_beg_box .cx_login_check {
+  padding-left: 0.6px;
+  background: none;
+}
+.cx_login .cx_beg_box .cx_login_check .cx_login_input {
+  padding-left: 0.6em;
+}
+.cx_login .cx_beg_box .cx_login_goReg {
+  text-align: left;
+}
+.cx_login .cx_beg_box .cx_login_submit {
+  margin-top: 20px;
+}

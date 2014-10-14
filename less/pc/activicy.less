@@ -1,0 +1,115 @@
+
+
+.actCan{
+	display:inline-block;
+	*display:inline;
+	position:relative;
+	img {border:0;display:block};
+	zoom:1;
+	.actCanBottom{
+		position:absolute; 
+		bottom:0;
+		color:#FFF;
+		width:100%;
+		background:rgba(0,0,0,0.3);
+		background-image:url('../../images/icbg.png');
+		
+		overflow:hidden;
+	
+	}
+
+	.cc{background-image:url('../../images/icbg_4.png'); color:#000;}
+	
+
+.actLeft,.actLeftStar{
+	margin:20px 0 20px 30px;
+	overflow:auto;
+	
+	ul li{
+	
+		float:left;
+		width:49%;
+	}
+	.catColor{ display:inline-block;width:12px; height:12px;
+	@r : 12px;
+	-moz-border-radius: @r;
+	-khtml-border-radius: @r;
+	-webkit-border-radius: @r;
+	-ms-border-radius: @r;
+	border-radius: @r;
+	
+	}
+
+}
+
+.actLeftStar{
+	ul li{
+		float: none;
+		width:100%;
+		color:#000;
+	}
+
+
+}
+
+.catRight{ 
+		position:absolute; 
+		top:0;
+		right:0;
+		background:rgba(0,0,0,0.3);
+		background-image:url('../../images/icbg.png');
+		
+		a { color:#FFF;
+			width:114px;
+			height:114px;
+			display:block;
+			text-align:center;
+			padding-top:14px;
+			
+			.gotoSite{
+				@w : 50px;
+				@r : @w ;
+				margin-top:10px;
+				display:inline-block;
+				width:@w;
+				height:@w;
+				border:2px solid #FFF;
+				-moz-border-radius: @r;
+				-khtml-border-radius: @r;
+				-webkit-border-radius: @r;
+				-ms-border-radius: @r;
+				border-radius: @r;
+				font-size:30px;
+				font-weight:400;
+				line-height:@w;
+			
+			}
+		
+		}
+		
+	}
+
+}
+
+
+
+.glyphicon {
+	box-sizing: border-box;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	font-size: 24px;
+	width: 16px;
+	height: 14px;
+}
+
+.glyphicon-star{
+	background:url('../../images/star.png')
+}
+
+.glyphicon-star2{
+	background:url('../../images/star2.png')
+}

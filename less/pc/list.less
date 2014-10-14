@@ -1,0 +1,139 @@
+@import (less) "../common/header";
+@import (less) "../common/share";
+@import (less) "../common/hot";
+@import (css) "../common/footer.css";
+
+
+.bannerCon{ 
+	background-color:#eaeaea;
+	padding-top:22px;
+	@mg:30px;
+	.banner{ 
+		margin-left:auto;
+		margin-right:auto;
+		width:990px;
+		height:380px;
+		position:relative;
+	}
+	.bannerMain{
+		position : absolute;
+		
+		right:0px;
+		top:0;
+		width:35%;
+		
+		background:rgba(150,150,150,0.8);
+		background : url('../../images/icbg_3.png');
+		-background:#999;
+		
+		height:380px;
+		font-size:0.8rem;
+		
+		h2{
+			margin-top:65px;
+			font-size:20px;
+			background:#969696;
+			padding-left:40px;
+			color:#FFF;
+			line-height:140%;
+		}
+		.bannerTitle{
+			 margin-bottom:45px;
+			 background:#e65c25;padding-left:6px; 
+		}
+	}
+	p{ margin:10px @mg; color:#FFF;font-size : 12px;}
+	
+	.bannerFooter{
+		position : absolute;
+		bottom:15px;
+		width:100%;
+		li{ display:inline-block;width:20px;
+			height:20px; margin:0 2px;}
+		li{ display:inline;}
+		ul{ .ri;
+			padding:0 @mg;
+		}
+		li a{
+			.less_share;
+		}
+		span.ti{ 
+			background-color:rgba(230,92,37,0.5); 
+			background : url('../../images/icbg_2.png');
+			-background-color:#b97358; 
+			
+			padding:3px 10px;
+			color:#FFF;
+			&.first{margin-left:@mg;}
+		}
+		
+		
+	}
+	
+
+
+}
+
+.main{
+	width:990px;margin-left:auto;margin-right:auto;
+	margin-top:22px;
+	overflow : hidden;
+	ul{
+	 height:auto;
+	 margin:0 -22px 15px -22px;
+	 zoom:1;
+	 &:after {
+			.after;
+	  }
+	 }
+	ul li{
+		.fl;
+		width:300px;
+		margin:14px 22px;
+		img{ width:300px; height:200px;}
+		
+		.mainConLiu{
+			background:#cccccc;
+			font-size:12px;
+			padding:18px 16px;
+			position:relative;
+			h2{ font-size:1rem;  *font-size:14px;margin-bottom:15px; line-height: 20px; height:40px; padding-right: 20px;}
+			p{margin-bottom:20px;height:58px;}
+			span.a_5{
+				.icon;
+				background-position:0 -114px;
+				height:13px;
+				padding-left:22px;
+				position : absolute;
+				right:10px;
+				bottom:22px;
+			}
+			
+			span.a_6{
+				.icon;
+				background-position:0 -37px;
+				position : absolute;
+				right:10px;
+				top:20px;
+				
+			}
+		}
+		
+		&.over{
+			.mainConLiu{
+				background:#e65c25;
+				color:#FFF;
+				*{ color:#FFF};
+				span.a_5{ color:#FFF;background-position:0 -148px;}
+				span.a_6{ background-position:0 -73px;}
+			}
+		
+		}
+	}
+	
+	
+	
+}
+
+
+

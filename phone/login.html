@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="pragma" content="no-cache">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="HandheldFriendly" content="true">
+<meta http-equiv="x-rim-auto-match" content="none">
+<meta name="format-detection" content="telephone=no">
+<title>LIFE健康</title>
+<link rel="apple-touch-icon-precomposed" href="http://file.caixin.com/file/channel/life/images/LIFEicon.png">
+<link href="http://file.caixin.com/file/mobile/life/css/m_life.css" type="text/css" rel="stylesheet">
+
+
+<link rel="stylesheet" type="text/css" href="../css/phone/phone_login.css" />
+<script type="text/javascript" src="../pc/jquery-1.11.1.min.js"></script>
+<script language="javascript" src="http://file.caixin.com/webjs/common/common_v2.js"></script>
+<script language="javascript" src="http://file.caixin.com/webjs/content/share_v2.js"></script>
+
+</head>
+
+<body>
+<header class="mainBox">
+<!--top-->
+<div class="topBox">
+    <p><a href="http://life.caixin.com"><img src="http://file.caixin.com/file/mobile/life/images/logo.png" width="203" height="40"></a></p>
+    <ul>
+	<script type="text/javascript">
+    var thurl = base64encode(base64encode(window.location.href));
+    var cxuid = GetCookieValue("SA_USER_UID");
+    var cxname = GetCookieValue("SA_USER_NICK_NAME");
+    if(cxuid && cxname){
+     document.write('<li><a class="login" onClick="DelCookieValue(\'http://user.caixin.com/logout/index/?url='+thurl+'\');" href="'+window.location.href+'" target="_self">退出</a></li><li><a href="#">'+cxname+'</a></li>');
+    }else{
+     document.write('<li><a class="login" href="http://m.user.caixin.com/usermanage/login/m/1/?mini=2&url='+thurl+'" target="_self">登录</a></li>');
+    }
+   </script><li><a class="login" href="http://m.user.caixin.com/usermanage/login/m/1/?mini=2&amp;url=YUhSMGNEb3ZMMnhwWm1VdVkyRnBlR2x1TG1OdmJTOD0=" target="_self">登录</a></li>      
+    </ul>
+  </div>
+<div class="searchBox01"> <span id="menu_topa" onClick="openShutManager(this,'menu_topd',false);"><img src="http://file.caixin.com/file/mobile/life/images/list_ico.png" width="25" height="18"></span>
+    <form method="get" id="searchform" action="http://life.caixin.com/">				
+	<p>
+      <input type="text" name="s" id="search-text">
+    </p>
+    <i>
+    <input name="submit" type="submit" id="search-submit" value="" class="glass">
+    </i></form> </div>
+
+</header>
+
+<div class="cx_login">
+    	<div class="cx_login_title">
+        	<h2>
+            	登录
+            </h2>
+        </div>
+        <a href="javascript:;" class="cx_login_close">×</a>
+    	<!--登录-->
+        <div class="cx_login_box" >
+        	<div class="cx_login_error">
+            	<div>
+                    <span class="cx_login_error"><span class="cx_login_error_ic1">!</span><span>你真的错了</span></span>
+                    <a class="cx_login_error_getPwd" href="#">忘记密码？</a>
+                </div>
+            </div>
+        	<div class="cx_login_com">
+            	<div class="cx_login_in">
+                	<span class="cx_l_ic_1"></span>
+                	<div style="width:auto; overflow:hidden;">
+                		<input type="text" class="cx_login_input" placeholder="用户名" >
+                    </div>
+                </div>
+                
+                <div class="cx_login_in">
+                	<span class="cx_l_ic_2"></span>
+                	<div>
+                		<input type="password" class="cx_login_input" placeholder="密码">
+                    </div>
+                </div>
+                <a  class="cx_login_submit mt72" href="javascript:;">登录</a>
+            </div>
+            <div class="cx_login_others">
+            	<a href="#" target="_blank">
+                	<span class="cx_l_ic_4"></span>
+                    新浪微博登录
+                </a><a href="#" target="_blank">
+                	<span class="cx_l_ic_5"></span>
+                    新浪微博登录
+                </a>
+            </div>
+            <div class="cx_login_goReg">
+            	<a href="javascript:;">注册账号 </a><span class="cx_l_ic_6"></span>
+            </div>
+        </div>
+        
+        <!--注册-->
+    	<div class="cx_login_box cx_beg_box" style="display:none">
+        	<div class="cx_login_error">
+            	<div>
+                    <span class="cx_login_error"><span class="cx_login_error_ic1">!</span><span>你真的错了</span></span>
+                </div>
+            </div>
+        	<div class="cx_login_com">
+            	<div class="cx_login_in">
+                	<span class="cx_l_ic_3"></span>
+                	<div>
+                		<input type="text" class="cx_login_input" placeholder="用户名" >
+                    </div>
+                </div>
+                <div class="cx_login_in">
+                	<span class="cx_l_ic_1"></span>
+                	<div>
+                		<input type="text" class="cx_login_input" placeholder="邮箱" >
+                    </div>
+                </div>
+                
+                <div class="cx_login_in">
+                	<span class="cx_l_ic_2"></span>
+                	<div>
+                		<input type="password" class="cx_login_input" placeholder="密码">
+                    </div>
+                </div>
+                <div>
+                	<div class="cx_login_in_r">
+                    	<img src="../images/temp_7.png" style="width:100%; height:100%;">
+                    </div>
+                	<div class="cx_login_in cx_login_check">
+                		<input type="text" class="cx_login_input" placeholder="验证码">
+                    </div>
+                    
+                </div>
+                <a href="javascript:;" class="cx_login_submit mt72">登录</a>
+            </div>
+            <div class="cx_login_goReg">
+            	<span class="cx_l_ic_7"></span><a href="javascript:;">登录</a>
+            </div>
+        </div>
+    
+    
+    </div>
+
+<div class="bottom">
+  <ul>
+    <li><a href="/?wptouch_switch=desktop&amp;redirect=%2F"><img src="http://file.caixin.com/file/mobile/life/images/pc_ico.png" width="18" height="20"></a></li>
+    <li><img src="http://file.caixin.com/file/mobile/life/images/mobile_ico.png" width="13" height="20"></li>
+  </ul>
+  <p>Copyright 财新网 All Rights Reserved 版权所有 复制必究</p>
+</div>
+</body>
+</html>

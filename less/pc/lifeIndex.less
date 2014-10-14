@@ -1,0 +1,64 @@
+@import (less) "../common/header";
+@import (less) "../common/banners";
+@import (less) "../common/hot";
+
+.bannerCon{ 
+	.less-banners;
+	height:318px;
+	.banner{ height:276px;}
+	.indexBanner img{
+		height:276px;
+	}
+	
+	.bannerMain{
+		 background:none;
+		 left:60px;
+		 right:auto;
+		 width:auto;
+		 .bannerTitle{
+				background:none;
+				padding:0;
+				
+			}
+		 h2{background:none; font-size:40px; padding:0}
+	}
+	
+	p{ margin:0; width:60%;}
+	
+	.bannerLeft,.bannerRight{
+				background : url('../../images/icbg.png');
+				left:50px;
+				border-color:#000;
+				}
+	.bannerRight{right:50px; left:auto;}
+	
+	.bannerCirle a:hover, .bannerCirle a.over{ background:#bad576;}
+	
+}
+
+
+.hot{
+	.hot;
+	ul li div{
+		position :relative;
+		background:#e9f2d5;
+		
+		h2{
+			color:#7b9335;
+		}
+		span{ background:url(../../images/ic_5.png); width:19px; height:19px; margin-top:10px}
+	}
+	
+	li.over{
+		div{background:#bbd679; }
+	} 
+	
+}
+
+.addMore{
+	a:hover {
+		background: #bbd679;
+		
+	}
+}
+

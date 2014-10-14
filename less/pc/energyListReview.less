@@ -1,0 +1,195 @@
+@import (less) "../common/header";
+@import (less) "../common/banners";
+@import (less) "../common/share";
+.liu-banner{ 
+	.less-banners;
+	.banner{ height:auto}
+	.indexBanner{
+		width : 990px;
+		margin-right:0;
+		img {
+			width : 990px;
+			height : auto;
+		}
+		&.out {
+		  opacity: 1;
+		}
+	}
+	
+
+	.bannerLeft,.bannerRight{
+		border: 0;
+		top: 40%;
+		
+	}
+	.bannerLeft {
+		left : 0;
+	}
+
+	.bannerRight { 
+		right : 0;
+	}
+	.bannerMain{ 
+		width: 100%;
+		bottom : 0px;
+		top : auto;
+		height: 80px;
+		padding-top:10px;
+		padding-bottom: 10px;
+		background: url('../../images/icbg.png');
+		h2{ font-size: 22px;}
+		h2,p{ background: none; padding : 0; margin: 0;}
+		p{ font-weight: 400;}
+		.Text { float: left; width: 25%; margin-top: 10px; font-size: 40px; color: #FFF; text-align: center; line-height: 40px; border-right: 1px solid #FFF;}
+		.bannercont { margin-left: 30%;}
+	}
+
+}
+
+
+.liu-main {
+	width:990px;
+	margin-top: 15px;
+	.left{ float: left; width: 640px; margin: 0 5px; 
+
+		
+		.areaCon{ background: #e6e6e6;padding: 20px;}
+		.leftAuthor {
+			width: 70px;
+
+			float: left;
+			text-align: center;
+			color: #e45914;
+			font-size: 12pt ;
+			font-weight: 600;
+
+			img{
+				width: 48px;
+				height : 48px;
+				-moz-border-radius: 48px; 
+				-webkit-border-radius: 48px; 
+				border-radius: 48px;
+				margin-bottom: 5px;
+
+			}
+
+
+		}
+		.reviewArea { margin-left:90px; *display:inline-block; *margin-left:0px;
+
+
+			.reviewTextarea {
+
+				width: 100%;
+				height: 110px;
+				border: 1px solid #cdd2c0;
+			}
+
+			.reviewAreaSend{
+
+				margin-top: 15px;
+
+				.login { color: #e45914; font-size: 13pt; font-weight: 600;}
+				.areaSend { float: right; height:26px; width: 106px; background: #e45914; display: inline-block;
+
+					text-align: center;
+					line-height: 26px;
+					font-weight: 600;
+					font-size: 12px;
+					color: #FFF; 
+
+				}
+
+			}
+
+		}
+
+
+		.reviewCon{
+
+			.title { height: 35px; line-height: 35px; color: #FFF; background-color: #e45914; margin-top: 15px;
+				padding-left: 20px; font-size: 12pt;
+
+				.ic_10 {.icon; background-position: 0 -145px;}
+			}
+
+			li{ padding: 20px; background-color: #f2f2f2; border-bottom: 1px solid #FFF;
+
+				.reviewText { 
+					position: relative;
+					span,a{ color: #e45914;}
+					p { margin-top: 10px;}
+
+					.btns { position: absolute; top: 0px; right: 0px;}
+				}
+
+			}
+			li.sc{ background-color: #e5e5e5;}
+		}
+
+
+	}
+
+	.right{ float: right; width: 320px;
+
+		.title { height: 35px; line-height: 35px; color: #FFF; background-color: #e45914;font-size: 12pt;
+				padding-left: 20px;
+			}
+
+		.content{ background-color: #e6e6e6; padding: 15px 20px; height: 128px;}
+
+		.label{ background-color:#dadada; padding: 4px 8px; margin: 5px; color: #e45914;}
+
+		.tujian{ margin-top: 15px;
+			.tujianContent{ background-color: #d9d9d9;}
+			img{ width: 320px; height: 149px; }
+			h2{ padding:15px 15px; position: relative;}
+			.ic_8{ background: url(../../images/ic_8.png); display: inline-block; position: absolute; top:8px; right: 15px;
+				  width: 16px;
+				  height: 16px;
+				  margin-top: 10px;}
+
+
+		}
+
+
+	}
+
+
+
+
+
+}
+
+.addMore{
+	margin-top: 15px;
+	a:hover {
+		background: #e45914;
+		
+	}
+}
+
+//  分享
+.shareLiu{ 
+		text-align:right;
+		margin-bottom:30px;
+		position:fixed;
+		top:180px;
+		left:50%;
+		margin-left:500px;
+		z-index:10;
+		width:29px;
+		a{
+			.less_share;
+			margin-left:10px;
+			width:29px;
+			height:29px;
+			background:url("../../images/icon_share.png") no-repeat;
+			margin-bottom:10px;
+			&.share_sina { background-position:0 0;}
+			&.share_weixin{ background-position:0 -41px;}
+			&.share_qq{ background-position:0 -81px;}
+			}
+		
+		
+	}
