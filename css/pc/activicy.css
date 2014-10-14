@@ -24,7 +24,7 @@
 .actCan .actLeft,
 .actCan .actLeftStar {
   margin: 20px 0 20px 30px;
-  overflow: auto;
+  overflow: hidden;
 }
 .actCan .actLeft ul li,
 .actCan .actLeftStar ul li {
