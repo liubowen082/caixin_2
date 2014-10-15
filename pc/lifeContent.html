@@ -2,6 +2,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>无标题文档</title>
+
 <link href="http://file.caixin.com/file/channel/css/common_v5.css" type="text/css" rel="stylesheet" >
 <link href="http://file.caixin.com/file/channel/life/css/life_v2.css" type="text/css" rel="stylesheet" >
 <link rel="stylesheet" type="text/css" href="../css/pc/lifeContent.css" />
@@ -14,16 +15,16 @@
 
 <body>
 
-<div class="navBox">
-  <div class="logoCon">
-    <div class="logoLeft"><a href="http://energy.caixin.com/"><img src="http://file.caixin.com/file/channel/wsbn/images/logo_wsbn.jpg" width="211" height="90"></a></div>
-    <div class="logoRight">
-      <div class="headAd"><script language="javascript"> 
-ads_display(825)</script> </div>
-    </div>
+<!--top begin-->
+<div class="mainCon">
+  <div class="logoBox">
+    <div class="logo"><a href="http://life.caixin.com/"><img src="http://file.caixin.com/file/channel/life/images/life_logo.jpg" width="207" height="88"></a></div>
+    <div class="topAd"><script language="javascript"> 
+ads_display(842)</script> </div>
     <div class="clear"></div>
   </div>
-  <script>
+</div>
+<!--top end--> <script>
             $(function(){
                 var user_menu_show = false;
                 $('.user').click(function(){
@@ -40,38 +41,39 @@ ads_display(825)</script> </div>
                     user_menu_show = false;
                 });
             });
-        </script>
-  <div class="navBox02">
-    <div class="navCon">
-      <div class="nav02">
-        <ul>
-          <li><a href="/">首页<span>HOME</span></a></li>
-          <li><a href="/?cat=76">资讯<span>NEWS</span></a></li>
-          <li><a href="/?cat=75">观点<span>OPINION</span></a></li>
-          <li><a href="/?cat=74">产品<span>PRODUCT</span></a></li>
-            <li><a href="/?cat=252">能源花边社<span>GOSSIP</span></a></li>
-        </ul>
-        <div class="searchBox">
-        <form name="form1" method="get" class="searchform" action="http://energy.caixin.com/" >
-          <p class="keyword">
-            <input value="" name="s" id="s" type="text">
-            <em>
-            <input type="image" style="width:16px; height:17px;" src="http://file.caixin.com/file/channel/wsbn/images/ico_search.png" onClick="document.getElementById('form1').onsubmit();">
-            </em> </p>
-            </form>
-        </div>
-        <dl class="loginCon">
-          <dt>
-            <input type="button" value="投稿" name="" onClick="window.location = 'http://energy.caixin.com/?page_id=1659';">
-          </dt>
-                                          <dd><span><a href="http://user.caixin.com/usermanage/login" target="_self">登录</a></span><span><a href="http://user.caixin.com/auth/register" target="_self">注册</a></span></dd>
-                            </dd>
-        </dl>
-      </div>
+        </script> 
+<!--头条 begin-->
+<div class="toutiaoBox">
+  <div class="nav02Box">
+    <div class="nav02Con">
+      <ul>
+        <li><a href="http://life.caixin.com/">首页</a></li>
+        <li><a href="http://life.caixin.com/?cat=34">科技</a></li>
+        <li><a href="http://life.caixin.com/?cat=81">医疗</a></li>
+        <li><a href="http://life.caixin.com/?cat=35">食材</a></li>
+        <li><a href="http://life.caixin.com/?cat=36">健身</a></li>
+        <li><a href="http://life.caixin.com/?cat=2">自然</a></li>
+        <li><a href="http://life.caixin.com/?page_id=4775">作者</a></li>
+      </ul>
+      <dl class="loginCon">
+        <dt>
+          <input name="" type="button" value="投稿" onClick="window.location = 'http://life.caixin.com/?page_id=1321';">
+        </dt>
+        <dd>
+          <form name="form1" method="get" class="searchform" action="http://life.caixin.com/" >   
+            <div class="search">
+              <input type="text" class="seaCon" id="s" name="s" value="">
+              <input type="image" style="width:16px; height:17px; float:right;" src="http://file.caixin.com/file/channel/wsbn/images/ico_search.png" onClick="document.getElementById('form1').onsubmit();">
+            </div>
+          </form>
+                    <span><a href="http://user.caixin.com/usermanage/login" target="_self">登录</a></span><span><a href="http://user.caixin.com/auth/register" target="_self">注册</a></span>
+           </dd>
+      </dl>
+      <div class="clear"></div>
     </div>
-  </div>
-</div>
-
+  </div></div>
+<!--头条 end-->
+<!--nav end-->
 <!-- main  begin-->
 
 <div class="liu-main cf">
@@ -395,7 +397,7 @@ ads_display(825)</script> </div>
             </div>
         </div>
         <div class="pageUPCon">
-            <div class="pageUp" onclick="document.body.scrollTop=0">
+            <div class="pageUp" onclick="document.documentElement.scrollTop=0;document.body.scrollTop=0">
                 ^
 
             </div>
@@ -458,5 +460,4 @@ ads_display(825)</script> </div>
 
 <script language="javascript" src="http://v2.jiathis.com/code/jia.js" charset="utf-8"></script>
 </body>
-<script type="text/javascript" src="../phone/phone_wsbnjs.js"></script>
 </html>
