@@ -4,6 +4,15 @@
 * {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+.cx_bg {
+  background: #000;
+  opacity: 0.6;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 400px;
+}
 .cx_login {
   background-color: #ffffff;
   width: 90%;
@@ -16,8 +25,7 @@
   -webkit-border-radius: 10px;
   border-radius: 10px;
   height: 30em;
-  position: relative;
-  top: 20px;
+  position: fixed;
   text-align: left;
   left: 50%;
   margin-left: -45%;
